@@ -1,0 +1,11 @@
+<div class='character-page'>
+{{#each characters}}
+<div class="card" style="width: 18rem;">
+    <img src="{{this.img}}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{this.name}}</h5>
+        <p class="card-text">Nickname: {{this.nickname}}. <br> Portrayed by {{this.portrayed}}</p>
+    </div>
+</div>
+{{/each}}
+</div>
